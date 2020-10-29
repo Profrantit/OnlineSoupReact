@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { Components } from "react";
+import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Default from "./components/Default";

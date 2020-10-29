@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { storeProducts, detailProduct } from "./data";
-import { throwStatement } from "@babel/types";
+
 const ProductContext = React.createContext();
 
 class ProductProvider extends Component {
