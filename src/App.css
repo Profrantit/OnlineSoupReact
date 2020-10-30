@@ -38,3 +38,62 @@ body {
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
+.containerForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.cancelbtn {
+  background-color: #6094aa;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+.signupbtn {
+  background-color: #ffcc00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}

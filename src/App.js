@@ -8,6 +8,8 @@ import Details from "./components/Details";
 import ProductList from "./components/ProductList";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
+import Profile from "./components/Profile";
+
 function App() {
   return (
     <React.Fragment>
@@ -15,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ProductList} />
         <Route path="/details" component={Details} />
+        <Route path="/profile" component={Profile} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />
       </Switch>
